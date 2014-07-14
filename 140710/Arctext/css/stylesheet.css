@@ -1,0 +1,20 @@
+body {
+	background-color: skyblue;
+}
+
+p {
+	margin-top: 200px;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+}
+
+p.closed, p.opened {
+	position: absolute;
+	margin-top: 45px;
+	margin-left: 600px;
+}
+
+.hide {
+	display: none;
+}

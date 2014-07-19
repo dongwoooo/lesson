@@ -1,0 +1,84 @@
+<< Numeric Baseball >>
+
+What is your 4-digit guess? : 1234
+>> 0S 2B
+
+What is your 4-digit guess? : 0124
+>> 0S 2B
+
+What is your 4-digit guess? : 7124
+>> 0S 1B
+
+What is your 4-digit guess? : 0483
+>> 0S 2B
+
+What is your 4-digit guess? : 0489
+>> 0S 1B
+
+What is your 4-digit guess? : 0348
+>> 0S 2B
+
+What is your 4-digit guess? : 0597
+>> 0S 2B
+
+What is your 4-digit guess? : 0What is your 4-digit guess? : 0123
+>> 0S 3B
+
+What is your 4-digit guess? : 0128
+>> 0S 2B
+
+What is your 4-digit guess? : 0823
+>> 0S 2B
+
+What is your 4-digit guess? : 0237
+>> 0S 2B
+
+What is your 4-digit guess? : 1237
+>> 0S 2B
+
+What is your 4-digit guess? : 0127
+>> 0S 2B
+
+What is your 4-digit guess? : 0237
+>> 0S 2B
+
+What is your 4-digit guess? : 2379
+>> 0S 1B
+
+What is your 4-digit guess? : 0129
+>> 0S 2B
+
+What is your 4-digit guess? : 0193
+>> 0S 3B
+
+What is your 4-digit guess? : 0183
+>> 0S 3B
+
+What is your 4-digit guess? : 0173
+>> 0S 3B
+
+What is your 4-digit guess? : 0163
+>> 0S 3B
+
+What is your 4-digit guess? : 0153
+>> 1S 3B
+
+What is your 4-digit guess? : 3150
+>> 2S 2B
+
+What is your 4-digit guess? : 1350
+>> 1S 3B
+
+What is your 4-digit guess? : 0153
+>> 1S 3B
+
+What is your 4-digit guess? : 1053
+>> 2S 2B
+
+What is your 4-digit guess? : 3051
+>> 4S 0B
+
+You got it in 26 guesses!
+
+Wanna play more? [y/n] : n
+Do you want to save the log? [y/n] : y

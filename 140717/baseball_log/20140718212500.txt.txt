@@ -1,0 +1,54 @@
+<< Numeric Baseball >>
+
+What is your 4-digit guess? : 123-
+Please Enter in integer.
+
+What is your 4-digit guess? : 1234
+>> 1S 2B
+
+What is your 4-digit guess? : 123-
+Please Enter in integer.
+
+What is your 4-digit guess? : 1212
+Please Enter 4 distict digit number.
+
+What is your 4-digit guess? : 12486
+Please Enter 4 distict digit number.
+
+What is your 4-digit guess? : -123
+Please Enter in integer.
+
+What is your 4-digit guess? : 1234
+>> 1S 2B
+
+What is your 4-digit guess? : 1238
+>> 0S 2B
+
+What is your 4-digit guess? : 1284
+>> 1S 2B
+
+What is your 4-digit guess? : 1264
+>> 1S 2B
+
+What is your 4-digit guess? : 1254
+>> 1S 2B
+
+What is your 4-digit guess? : 1204
+>> 1S 3B
+
+What is your 4-digit guess? : 1042
+>> 1S 3B
+
+What is your 4-digit guess? : 0214
+>> 2S 2B
+
+What is your 4-digit guess? : 0241
+>> 0S 4B
+
+What is your 4-digit guess? : 2014
+>> 4S 0B
+
+You got it in 11 guesses!
+
+Wanna play more? [y/n] : n
+Do you want to save the log? [y/n] : y

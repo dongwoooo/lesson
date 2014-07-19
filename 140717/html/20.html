@@ -1,0 +1,442 @@
+
+<!DOCTYPE HTML>
+
+<html lang="ko" xml:lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+<meta content="text/xhtml; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="" name="keywords"/>
+<meta content="" name="description"/>
+<link href="http://www.ktv.go.kr/_images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="http://www.ktv.go.kr/_css/default.css" rel="stylesheet" type="text/css"/>
+<link href="http://www.ktv.go.kr/_css/layout.css" rel="stylesheet" type="text/css"/>
+<link href="http://www.ktv.go.kr/_css/header.css" rel="stylesheet" type="text/css"/>
+<link href="http://www.ktv.go.kr/_css/footer.css" rel="stylesheet" type="text/css"/>
+<link href="http://www.ktv.go.kr/_css/public.css" rel="stylesheet" type="text/css"/>
+<link href="http://www.ktv.go.kr/_css/contents.css" rel="stylesheet" type="text/css"/>
+<script src="http://www.ktv.go.kr/_js/common.js" type="text/javascript"></script>
+<script src="http://www.ktv.go.kr/_js/layerpopup.js" type="text/javascript"></script>
+<script src="http://www.ktv.go.kr/common/vodplayer/wenplayer/jquery-1.6.2.js" type="text/javascript"></script>
+<script src="http://www.ktv.go.kr/common/vodplayer/wenplayer/jquery.iecors.js" type="text/javascript"></script>
+<script src="http://www.ktv.go.kr/common/vodplayer/wenplayer/wenplayer.js" type="text/javascript"></script>
+<title> KTV 한국정책방송</title>
+<script type="text/javascript">
+	var fid = "1085612a-6d6b-4d5a-a5a1-36988c829986";
+	var srvurl = "/mp4:7df25851-29bb-48ce-b3ed-12d715903294/2014/07/17/1085612a-6d6b-4d5a-a5a1-36988c829986/ea8ad225-5274-45e4-9d4a-d44055d7960c.mp4";
+	var thumburl = "/program/content_xml/30/487130_1.1_image_1.jpg";
+	
+	var list_div_h = 400;
+	var text_div_h = 400; 		 		
+	  	
+ 	
+ 	function popupVodplayer(cid){
+		var open_url = "/vodplayer.jsp?cid=" + cid;
+		var newWindow = window.open(open_url, 'ktv_vod_popup', 'width=739, height=508, toolbar=no, location=no, status=no, menubar=no, scrollbars=no, resizable=no');
+		newWindow.focus(); 
+	}	
+	
+	function lf_setPlayInfo()
+	{
+		//--player Start
+		wenPlayer({
+			playerDiv : "divMovie", 
+			streamUrl : srvurl, 
+			width	  : "640",
+			height 	  : "360",
+			fileId	  : fid,					
+			thumbnail : thumburl
+		});
+	}	
+	
+	(function($){
+		$(window).load(function(){			
+			lf_setPlayInfo();
+			
+			var h_reflist = $("div.reflist").height();
+			var h_movietxt = $("div.movietxt").height();
+						
+			if(h_reflist>h_movietxt && h_reflist>600){
+				$("ul.cockgy").css('height','600px');
+				$("ul.cockgy").css('overflow-y','scroll');
+			}
+			
+			
+			//var h_div = $("div.movin").height();		
+			//var h_cockgy = eval(h_div - 240) + "px";
+			//if(h_div>640){
+			//	$("ul.cockgy").css('height',h_cockgy);
+			//}		
+		});
+	})(jQuery);
+	
+ 	</script>
+</head>
+<body>
+<div id="wrap">
+<script>
+			function loadOnairPopup(){
+				var open_url = "/onair.jsp";
+				var newWindow = window.open(open_url, 'ktv_onair_popup', 'left=200,top=200, width=665, height=425, toolbar=no, location=no, status=no, menubar=no, scrollbars=no, resizable=no');
+				newWindow.focus(); 
+			}
+			$('#quickBox').animate({ top: $(document).scrollTop() + 120 + "px"}, 500);
+			$(window).scroll(function() {
+					$('#quickBox').stop();
+					$('#quickBox').animate({ top: $(document).scrollTop() + 120 + "px"}, 500);
+			});					
+		</script>
+<!-- *) 공통 분석스크립트  -->
+<!-- AceCounter Log Gathering Script V.71.2011011101 -->
+<script language="javascript">
+		if(typeof EL_GUL == 'undefined'){
+		var EL_GUL = 'gtr.kcisa.kr';var EL_GPT='80'; var _AIMG = new Image(); var _bn=navigator.appName; var _PR = location.protocol=="https:"?"https://"+EL_GUL:"http://"+EL_GUL+":"+EL_GPT;if( _bn.indexOf("Netscape") > -1 || _bn=="Mozilla"){ setTimeout("_AIMG.src = _PR+'/?cookie';",1); } else{ _AIMG.src = _PR+'/?cookie'; };
+		document.writeln("<scr"+"ipt language='javascript' src='/acecounter/acecounter_V70.js'></scr"+"ipt>");
+		}
+		</script>
+<noscript><img alt="AceCounter" border="0" height="0" src="http://gtr.kcisa.kr:80/?uid=82&amp;je=n&amp;" width="0"/></noscript>
+<!-- AceCounter Log Gathering Script End -->
+<div class="skipnavigation"><a href="#lnb">주메뉴으로 바로가기</a></div>
+<div class="skipnavigation"><a href="#contents">본문으로 바로가기</a></div>
+<div id="quickBox" style="position:absolute; top:120px; right:0px;">
+<ul>
+<li><a href="https://www.facebook.com/KTV.kr" target="_blank"><img alt="KTV 페이스북" src="/_images/main/link_facebook.png"/></a></li>
+<li><a href="https://twitter.com/Mylife_KTV" target="_blank"><img alt="KTV 트위터" src="/_images/main/link_twitter.png"/></a></li>
+<li><a href="http://blog.naver.com/ktv520" target="_blank"><img alt="KTV 네이버 블로그" src="/_images/main/link_blog.png"/></a></li>
+<li><a href="http://www.youtube.com/user/chKTV520" target="_blank"><img alt="KTV 유튜브 체널" src="/_images/main/link_youtube.png"/></a></li>
+<li><a href="http://www.ktv.go.kr/newmedia/podcast.jsp" target="_self"><img alt="KTV 팟캐스트 모음" src="/_images/main/link_podcast.png"/></a></li>
+<li><a href="http://www.culture.go.kr/index.jsp" target="_blank"><img alt="문화포털" src="/_images/main/link_culture.png"/></a></li>
+</ul>
+</div>
+<div id="globaltop">
+<ul class="link_section">
+<li><a href="http://www.president.go.kr" target="_blank"><img alt="청와대" src="/_images/main2013/btn/btn_global_link1.png"/></a></li>
+<li><a href="http://korea.kr" target="_blank"><img alt="정책브리핑" src="/_images/main2013/btn/btn_global_link2.png"/></a></li>
+<li><a href="http://ehistory.korea.kr" target="_blank"><img alt="e영상역사관" src="/_images/main2013/btn/btn_global_link3.png"/></a></li>
+</ul>
+<p class="slogan"><img alt="함께하는 공정사회! 더 큰 희망 대한민국" src="/_images/main2013/text/text_slogan.png"/></p>
+<ul class="list">
+<li><a href="/account/login.jsp" target="_self">로그인</a></li>
+<li><a href="/account/join_01.jsp" target="_self">회원가입</a></li>
+<li><a href="/introduce/chief.jsp" target="_self">KTV소개</a></li>
+<li class="last-child"><a href="/other_pages/sitemap.jsp" target="_self">사이트맵</a></li>
+</ul>
+</div>
+<!-- header -->
+<div id="header">
+<div class="ci"><a href="/index.jsp"><img alt="KTV 한국정책방송" src="/_images/main2013/logo_top.png"/></a></div>
+<div class="total_search">
+<!-- 추천검색어 -->
+<div class="recm_word">
+<ul>
+<li><a href="/search/search_result_all.jsp?query=여객선 침몰 사고">여객선 침몰 사고</a></li>
+<li><a href="/search/search_result_all.jsp?query=기초연금제도">기초연금제도</a></li>
+<li><a href="/search/search_result_all.jsp?query=한중 정상회담">한중 정상회담</a></li>
+</ul><!-- This page is generated by CMS -->
+<div class="weather">
+</div>
+</div>
+<!--검색폼-->
+<form action="/search/search_result_all.jsp" id="headersearch" method="post" name="headerseach">
+<fieldset>
+<legend>KTV홈페이지검색</legend>
+<label for="query" style="display:none">검색어 입력</label><input class="search_text" id="query" name="query" type="text"/>
+<input alt="검색" class="btn_search" id="search_submit" name="search_submit" src="/_images/main2013/btn/btn_totalsearch.png" type="image" value="검색"/>
+</fieldset>
+</form>
+</div>
+<div class="banner" id="head_banner"> <!--a href="#" class="prev" onclick="changeAutoMainNotify('head_banner'); return false;"><img src="/_images/main2013/btn/btn_header_prev.png" alt="이전"/></a> <a href="#" class="next" onclick="changeAutoMainNotify('head_banner'); return false;"><img src="/_images/main2013/btn/btn_header_next.png" alt="다음"/></a-->
+<ul>
+<!--li id="banner01" class="bannerlist" style="display:block">
+                	<object id="main" width="210" height="80" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0">
+										<param name="movie" value="http://www.korea.kr/powersave/powersave_korea.swf" />
+										<param name="quality" value="high" />
+										<param name="wmode" value="transparent" />
+										<param name="bgcolor" value="#FFFFFF" />
+										<embed width="210" height="80" src="http://www.korea.kr/powersave/powersave_korea.swf" quality="high" wmode="transparent" bgcolor="#FFFFFF" name="main" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+									</object>
+                </li-->
+<li>
+<img align="left" border="0" height="78px" src="/_onair_radio.jpg" usemap="#imgmap" width="177px"/>
+<map name="imgmap">
+<area alt="KTV 생방송 바로가기" coords="14,37,86,68" href="/onair.jsp" onclick="loadOnairPopup();return false;" shape="rect" target="_blank">
+<area alt="KTV 인터넷 라디오 바로가기" coords="91,37,162,68" href="/radio" onclick="loadRadioPopup();return false;" shape="rect" target="_blank">
+</area></area></map>
+</li>
+</ul>
+</div>
+<!-- 주메뉴 -->
+<div id="lnb">
+<ul class="main">
+<li><a href="/news"><img alt="정책뉴스" src="/_images/main2013/btn/btn_lnb_menu1.png"/></a></li>
+<li><a href="/public"><img alt="정책/공공" src="/_images/main2013/btn/btn_lnb_menu2.png"/></a></li>
+<li><a href="/culture"><img alt="문화/교양" src="/_images/main2013/btn/btn_lnb_menu3.png"/></a></li>
+<li><a href="/issue"><img alt="정책이슈" src="/_images/main2013/btn/btn_lnb_menu4.png"/></a></li>
+<li><a href="/special"><img alt="특집" src="/_images/main2013/btn/btn_lnb_menu5.png"/></a></li>
+<li><a href="/ministry"><img alt="부처별영상" src="/_images/main2013/btn/btn_lnb_menu6.png"/></a></li>
+<li class="last-child"><a href="/board/opinion"><img alt="시청자참여" src="/_images/main2013/btn/btn_lnb_menu7.png"/></a></li>
+</ul>
+<div class="sub">
+<ul>
+<li><a href="/newmedia/guide.jsp" target="_self"><img alt="new" src="/_images/common/icon_new.png "/><img alt="뉴미디어" src="/_images/main2013/btn/btn_lnb_side5.png"/></a></li>
+<li><a href="/guide/broad_chart_tv.jsp"><img alt="방송편성표" src="/_images/main2013/btn/btn_lnb_side1.png"/></a></li>
+<li><a href="/guide/broad_channel.jsp" target="_self"><img alt="채널안내" src="/_images/main2013/btn/btn_lnb_side2.png"/></a></li>
+<li><a href="http://www.ktv.go.kr/public_report/guide.jsp" target="_self"><img alt="정보공개" src="/_images/main2013/btn/btn_lnb_side4.png"/></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="container">
+<div id="leftmenu">
+<p class="subtitle"><img alt="정책뉴스" src="/_images/title/h2_news.png"/></p>
+<div class="programlist">
+<p class="secttl here">프로그램별</p>
+<ul class="section">
+<li><a href="/program/programHome.jsp?pcode=PG2130018D"> 이 시각 주요뉴스 </a></li>
+<li><a href="/program/programHome.jsp?pcode=PG2130043D"> 희망의 새시대 </a></li>
+<li><a href="/program/programHome.jsp?pcode=PG2130040D"> 국민행복시대 </a></li>
+<li><a href="/program/programHome.jsp?pcode=PG2130045D"> KTV 10 </a></li>
+<li><a href="/program/programHome.jsp?pcode=PG2140024D"> KTV 7 </a></li>
+<li><a href="/program/programHome.jsp?pcode=PG2140023D"> KTV 뉴스 </a></li>
+</ul>
+<p class="secttl">분야별</p>
+<ul class="section">
+<li><a href="/news/home.jsp?sphereGroup2=c101101">경제/과학</a></li>
+<li><a href="/news/home.jsp?sphereGroup2=c101102">사회/문화</a></li>
+<li><a href="/news/home.jsp?sphereGroup2=c101103">통일/외교</a></li>
+<li><a href="/news/home.jsp?sphereGroup2=c101104">교육/여성</a></li>
+<li><a href="/news/home.jsp?sphereGroup2=c101105">복지/환경</a></li>
+<li><a href="/news/home.jsp?sphereGroup2=briefing">브리핑</a></li>
+</ul>
+</div>
+</div>
+<div id="contents">
+<ul class="brd">
+<li class="home">홈</li>
+<li>정책 뉴스</li>
+<li class="here">KTV 7</li>
+</ul>
+<div class="inccont">
+<!-- 방송보기 상세:주프로그램 -->
+<div class="procont">
+<p class="pro_title">올바른 자외선 차단제 사용 방법 [국민리포트]</p>
+<div class="prottl">
+<a href="/program/programHome.jsp?pcode=PG2140024D">[KTV 7]</a>
+<span class="date">2014.07.17:07:00</span>
+</div>
+<div class="funcbar">
+<p class="functo">
+<a href="/common/mail/ktv_mail_send.jsp?title=%EC%98%AC%EB%B0%94%EB%A5%B8+%EC%9E%90%EC%99%B8%EC%84%A0+%EC%B0%A8%EB%8B%A8%EC%A0%9C+%EC%82%AC%EC%9A%A9+%EB%B0%A9%EB%B2%95+%5B%EA%B5%AD%EB%AF%BC%EB%A6%AC%ED%8F%AC%ED%8A%B8%5D&amp;content=http%3A%2F%2Fwww.ktv.go.kr%2Fktv_contents.jsp%3Fcid%3D487130" onclick="window.open('/common/mail/ktv_mail_send.jsp?title=%EC%98%AC%EB%B0%94%EB%A5%B8+%EC%9E%90%EC%99%B8%EC%84%A0+%EC%B0%A8%EB%8B%A8%EC%A0%9C+%EC%82%AC%EC%9A%A9+%EB%B0%A9%EB%B2%95+%5B%EA%B5%AD%EB%AF%BC%EB%A6%AC%ED%8F%AC%ED%8A%B8%5D&amp;content=http%3A%2F%2Fwww.ktv.go.kr%2Fktv_contents.jsp%3Fcid%3D487130','mailform_pop','left=200,top=200,scrollbars=no,status=no, resizable=no, width=350,height=260'); return false;" target="_blank" title="이메일 전송폼이 열립니다.">
+<img alt="이메일보내기" src="/_images/common/icon_mail.png"/></a> 
+						<a href="/common/webprint.jsp?cid=487130" onclick="window.open('/common/webprint.jsp?cid=487130','printform_pop','left=200,top=200,scrollbars=no,status=no, resizable=no,width=650,height=800'); return false;" target="_blank" title="기사인쇄용 화면이 열립니다.">
+<img alt="프린트하기" src="/_images/common/icon_print.png"/></a>  
+						<a href="/program/programHome.jsp?stat=opinion&amp;pcode=PG2140024D" target="_self"> <img alt="시청자소감" src="/_images/common/btn_write_im.png"/></a>
+</p>
+<ul class="sns">
+<li><a href="http://twitter.com/home?status=%EC%98%AC%EB%B0%94%EB%A5%B8+%EC%9E%90%EC%99%B8%EC%84%A0+%EC%B0%A8%EB%8B%A8%EC%A0%9C+%EC%82%AC%EC%9A%A9+%EB%B0%A9%EB%B2%95+%5B%EA%B5%AD%EB%AF%BC%EB%A6%AC%ED%8F%AC%ED%8A%B8%5D http%3A%2F%2Fwww.ktv.go.kr%2Fktv_contents.jsp%3Fcid%3D487130" onclick="window.open('http://twitter.com/home?status=%EC%98%AC%EB%B0%94%EB%A5%B8+%EC%9E%90%EC%99%B8%EC%84%A0+%EC%B0%A8%EB%8B%A8%EC%A0%9C+%EC%82%AC%EC%9A%A9+%EB%B0%A9%EB%B2%95+%5B%EA%B5%AD%EB%AF%BC%EB%A6%AC%ED%8F%AC%ED%8A%B8%5D http%3A%2F%2Fwww.ktv.go.kr%2Fktv_contents.jsp%3Fcid%3D487130','twitter','');return false;" target="_blank" title="트위터 작성화면이 열립니다."><img alt="트위터로 보내기" src="/_images/common/icon_sns_twit.png"/><label>트위터</label></a></li>
+<li><a href="http://www.facebook.com/sharer.php?s=100&amp;p[title]=%EC%98%AC%EB%B0%94%EB%A5%B8+%EC%9E%90%EC%99%B8%EC%84%A0+%EC%B0%A8%EB%8B%A8%EC%A0%9C+%EC%82%AC%EC%9A%A9+%EB%B0%A9%EB%B2%95+%5B%EA%B5%AD%EB%AF%BC%EB%A6%AC%ED%8F%AC%ED%8A%B8%5D&amp;p[url]=http%3A%2F%2Fwww.ktv.go.kr%2Fktv_contents.jsp%3Fcid%3D487130" onclick="window.open('http://www.facebook.com/sharer.php?s=100&amp;p[title]=%EC%98%AC%EB%B0%94%EB%A5%B8+%EC%9E%90%EC%99%B8%EC%84%A0+%EC%B0%A8%EB%8B%A8%EC%A0%9C+%EC%82%AC%EC%9A%A9+%EB%B0%A9%EB%B2%95+%5B%EA%B5%AD%EB%AF%BC%EB%A6%AC%ED%8F%AC%ED%8A%B8%5D&amp;p[url]=http%3A%2F%2Fwww.ktv.go.kr%2Fktv_contents.jsp%3Fcid%3D487130','facebook%','');return false;" target="_blank" title="페이스북 작성화면이 열립니다."><img alt="페이스북으로 보내기" src="/_images/common/icon_sns_face.png"/><label>페이스북</label></a></li>
+</ul>
+</div>
+<div class="pro_dtl">
+<div class="moviebox">
+<div id="divMovie" style="z-index:0;"> </div>
+<div class="popupmovie"><a href="/vodplayer.jsp?cid=487130" onclick="popupVodplayer('487130'); return false;" target="_blank"><img alt="팝업으로 보기" src="/_images/program/btn_viewpop.png"/></a></div>
+</div>
+<div class="movieinfo">
+<div class="movietxt">
+<!--StartFragment-->
+<p class="0" style="mso-pagination: none; mso-padding-alt: 0pt 0pt 0pt 0pt">엥커&gt;</p>
+<p>무더위에 햇볕 마저 강해지면서 자외선 차단에 비상이 걸렸는데요.</p>
+<p>자외선 차단, 어떻게 해야 효과가 큰지 최영숙 국민기자가 취재했습니다.</p>
+<p>[기사내용]</p>
+<p>한낮 서울 명동 강렬한 태양 볕이 내리쬡니다.</p>
+<p>오가는 사람들은 그늘을 찾아 보지만 땡볕을 피하기에는 역부족입니다</p>
+<p>30도 안팎의 무더위가 계속되면서 오존주의보가 발령되고 자외선지수도 자주 높음 단계를 보이는 요즘입니다.</p>
+<p>야외활동시 반드시 자외선 차단에 신경을 써야 할 땝니다.</p>
+<p>채희숙 / 서울 성북구 솔샘로</p>
+<p>"선크림을 바르고요. 두세 시간 간격으로 한 번씩 발라줍니다. 그리고 양산은 필수입니다."</p>
+<p>전금란 / 경기도 남양주시</p>
+<p>"요즘 태양이 너무 무서워 자외선 크림은 꼭 바르고 다녀요."</p>
+<p>여성들은 대부분 이처럼 자외선차단의 필요성을 잘 알고 있는 반면 남성들은 그렇지 못합니다.</p>
+<p>강경택 / 경기도 남양주시</p>
+<p>"썬 크림을 잘 발라야 되는 건 알겠는데 잘 안 바르게 되네요."</p>
+<p>대한 피부과의사회 조사에 따르면 20~30대 남성 피부암환자가 최근 10년간 5배가량 늘어난 것으로 나타났습니다.</p>
+<p>주5일제 근무 등으로 스포츠나 여행 등 야외활동을 즐기다보니 자외선 노출은 늘었는데 차단에는 무관심한 것이 주요 요인입니다.</p>
+<p>이현경 교수 / 서울을지병원 피부과</p>
+<p>"자외선은 피부노화의 주범인 동시에 최근에는 피부암을 유발하는 요인으로 알려져 있습니다. 자외선 차단만 잘해도 우리가 걱정하는 피부암이나 이런 것을 상당부분 예방할 수 있는데요."</p>
+<p>자외선 차단제는 500원 동전크기 정도의 양을 햇빛에 노출되는 모든 부위에 두드리듯 발라주는 것이 좋습니다.</p>
+<p>흐린날이나 비오는날도 예외는 아닙니다.</p>
+<p>햇빛이 구름에 반사, 산란돼 자외선지수가 더 높아지기 때문입니다.</p>
+<p>또 자외선A는 유리창문을 통과하기 때문에 실내에서나 운전 시에도 신경을 써야 합니다.</p>
+<p>장시간 운전시에는 특히 얼굴 왼쪽에 차단제를 꼼꼼히 발라주고 팔에는 토시 등을 착용하면 좋습니다.</p>
+<p>이현경 교수 / 서울을지병원 피부과</p>
+<p>"자외선 차단의 올바른 방법은 외출 30분 전에 차단제를 바르시고 나가서 야외활동을 하는 동안에는 두 시간마다 덧바르는 것을 권장하고 있습니다."</p>
+<p>살균효과가 뛰어나고 비타민D 생성에도 도움을 주는 자외선 하지만 지나치면 부작용도 커서 적절하고도 올바른 차단이 있어야 피부건강을 지킬 수 있습니다.</p>
+<p>국민리포트 최영숙입니다.</p>
+<p><br/>
+<br/>
+(KTV 국민방송 케이블방송, 위성방송 ch520 www.ktv.go.kr )<br/>
+&lt; ⓒ 한국정책방송원 무단전재 및 재배포 금지 &gt;  <o:p></o:p></p>
+</div>
+<div class="reflist">
+<ul class="cockgy">
+<p class="fullmov"><a href="/vodplayer.jsp?cid=487111" onclick="popupVodplayer('487111');return false;" target="_blank"><img alt="" src="/_images/button/btn_allvod.png"/></a></p>
+<li><a href="/program/contents.jsp?cid=487117">박 대통령 "어떤 도발도 초전에 강력하게 응징"</a></li>
+<li><a href="/program/contents.jsp?cid=487118">군 쇄신 강도높게 논의…"근본적으로 개선"</a></li>
+<li><a href="/program/contents.jsp?cid=487123">한미 해상훈련 돌입…미 항공모함 참여</a></li>
+<li><a href="/program/contents.jsp?cid=487124">아시아경기대회 남북 실무접촉 오늘 개최</a></li>
+<li><a href="/program/contents.jsp?cid=487125">"향후 받을 퇴직금·연금, 이혼시 나눠 가져야"</a></li>
+<li><a href="/program/contents.jsp?cid=487127">행복주택 '본궤도'…연내 2만6천가구 승인</a></li>
+<li><a href="/program/contents.jsp?cid=487126">'여름휴가 하루 더 가기'…국내여행 활성화</a></li>
+<li><a href="/program/contents.jsp?cid=487128">외국인 언어불편 우리가 해결해요 [국민리포트]</a></li>
+<li><a href="/program/contents.jsp?cid=487129">강바람 쐬며 영화·음악 즐기세요 [국민리포트]</a></li>
+<li><a href="/program/contents.jsp?cid=487130">올바른 자외선 차단제 사용 방법 [국민리포트]</a></li>
+<li><a href="/program/contents.jsp?cid=487112">중·소 환경기업 맞춤지원…경쟁력 강화 [여기는 세종]</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="funcbar">
+<p class="functo">
+<a href="/common/mail/ktv_mail_send.jsp?title=%EC%98%AC%EB%B0%94%EB%A5%B8+%EC%9E%90%EC%99%B8%EC%84%A0+%EC%B0%A8%EB%8B%A8%EC%A0%9C+%EC%82%AC%EC%9A%A9+%EB%B0%A9%EB%B2%95+%5B%EA%B5%AD%EB%AF%BC%EB%A6%AC%ED%8F%AC%ED%8A%B8%5D&amp;content=http%3A%2F%2Fwww.ktv.go.kr%2Fktv_contents.jsp%3Fcid%3D487130" onclick="window.open('/common/mail/ktv_mail_send.jsp?title=%EC%98%AC%EB%B0%94%EB%A5%B8+%EC%9E%90%EC%99%B8%EC%84%A0+%EC%B0%A8%EB%8B%A8%EC%A0%9C+%EC%82%AC%EC%9A%A9+%EB%B0%A9%EB%B2%95+%5B%EA%B5%AD%EB%AF%BC%EB%A6%AC%ED%8F%AC%ED%8A%B8%5D&amp;content=http%3A%2F%2Fwww.ktv.go.kr%2Fktv_contents.jsp%3Fcid%3D487130','mailform_pop','left=200,top=200,scrollbars=no,status=no, resizable=no, width=350,height=260'); return false;" target="_blank" title="이메일 전송폼이 열립니다.">
+<img alt="이메일보내기" src="/_images/common/icon_mail.png"/></a> 
+						<a href="/common/webprint.jsp?cid=487130" onclick="window.open('/common/webprint.jsp?cid=487130','printform_pop','left=200,top=200,scrollbars=no,status=no, resizable=no,width=650,height=800'); return false;" target="_blank" title="기사인쇄용 화면이 열립니다.">
+<img alt="프린트하기" src="/_images/common/icon_print.png"/></a> 
+						<a href="/program/programHome.jsp?stat=opinion&amp;pcode=PG2140024D" target="_self"> <img alt="시청자소감" src="/_images/common/btn_write_im.png"/></a>
+</p>
+<ul class="sns">
+<li><a href="http://twitter.com/home?status=%EC%98%AC%EB%B0%94%EB%A5%B8+%EC%9E%90%EC%99%B8%EC%84%A0+%EC%B0%A8%EB%8B%A8%EC%A0%9C+%EC%82%AC%EC%9A%A9+%EB%B0%A9%EB%B2%95+%5B%EA%B5%AD%EB%AF%BC%EB%A6%AC%ED%8F%AC%ED%8A%B8%5D http%3A%2F%2Fwww.ktv.go.kr%2Fktv_contents.jsp%3Fcid%3D487130" onclick="window.open('http://twitter.com/home?status=%EC%98%AC%EB%B0%94%EB%A5%B8+%EC%9E%90%EC%99%B8%EC%84%A0+%EC%B0%A8%EB%8B%A8%EC%A0%9C+%EC%82%AC%EC%9A%A9+%EB%B0%A9%EB%B2%95+%5B%EA%B5%AD%EB%AF%BC%EB%A6%AC%ED%8F%AC%ED%8A%B8%5D http%3A%2F%2Fwww.ktv.go.kr%2Fktv_contents.jsp%3Fcid%3D487130','twitter','');return false;" target="_blank" title="트위터 작성화면이 열립니다."><img alt="트위터로 보내기" src="/_images/common/icon_sns_twit.png"/><label>트위터</label></a></li>
+<li><a href="http://www.facebook.com/sharer.php?s=100&amp;p[title]=%EC%98%AC%EB%B0%94%EB%A5%B8+%EC%9E%90%EC%99%B8%EC%84%A0+%EC%B0%A8%EB%8B%A8%EC%A0%9C+%EC%82%AC%EC%9A%A9+%EB%B0%A9%EB%B2%95+%5B%EA%B5%AD%EB%AF%BC%EB%A6%AC%ED%8F%AC%ED%8A%B8%5D&amp;p[url]=http%3A%2F%2Fwww.ktv.go.kr%2Fktv_contents.jsp%3Fcid%3D487130" onclick="window.open('http://www.facebook.com/sharer.php?s=100&amp;p[title]=%EC%98%AC%EB%B0%94%EB%A5%B8+%EC%9E%90%EC%99%B8%EC%84%A0+%EC%B0%A8%EB%8B%A8%EC%A0%9C+%EC%82%AC%EC%9A%A9+%EB%B0%A9%EB%B2%95+%5B%EA%B5%AD%EB%AF%BC%EB%A6%AC%ED%8F%AC%ED%8A%B8%5D&amp;p[url]=http%3A%2F%2Fwww.ktv.go.kr%2Fktv_contents.jsp%3Fcid%3D487130','facebook%','');return false;" target="_blank" title="페이스북 작성화면이 열립니다."><img alt="페이스북으로 보내기" src="/_images/common/icon_sns_face.png"/><label>페이스북</label></a></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- #contents End -->
+</div>
+<!-- #container End -->
+</div>
+<!-- footer -->
+<div id="footer">
+<div class="inner1">
+<ul class="link1">
+<li><a href="/other_pages/privacy1.jsp" target="_self"><img alt="개인정보취급방침" src="/_images/main2013/text/text_footer_link3.png"/></a></li>
+<li><a href="/other_pages/copyright.jsp" target="_self"><img alt="저작권정책" src="/_images/main2013/text/text_footer_link7.png"/></a></li>
+<li><a href="/board/cleancenter/index.jsp" target="_self"><img alt="클린신고센터" src="/_images/board/cleancenter/text_footer_link6.png"/></a></li>
+<li><a href="/introduce/map.jsp" target="_self"><img alt="찾아오시는길" src="/_images/main2013/text/text_footer_link1.png"/></a></li>
+<li><a href="/other_pages/provision.jsp" target="_self"><img alt="이용약관" src="/_images/main2013/text/text_footer_link2.png"/></a></li>
+<li><a href="/other_pages/mailing.jsp" target="_self"><img alt="이메일무단수집거부" src="/_images/main2013/text/text_footer_link4.png"/></a></li>
+<li><a href="/rss/rss_list.jsp" target="_self"><img alt="RSS서비스" src="/_images/main2013/text/text_footer_link5.png"/></a></li>
+</ul>
+<ul class="link2">
+<li><a href="http://www.ktv.go.kr/business/purchase_guide.jsp" target="_self"><img alt="영상자료구입안내" src="/_images/main2013/btn/btn_footer_link1.png"/></a></li>
+</ul>
+<div class="outer_link">
+<form action="/other_pages/select_redirect.jsp" method="post" target="_blank">
+<fieldset>
+<legend>행정부처선택</legend>
+<select id="sel1" name="select" title="행정부처선택">
+<option value="">행정부처를 선택해 주세요.</option>
+<option value="http://www.president.go.kr">청와대</option>
+<option value="http://www.pmo.go.kr">국무총리</option>
+<option value="">----------</option>
+<option value="http://www.bai.go.kr">감사원</option>
+<option value="http://www.nis.go.kr">국가정보원</option>
+<option value="">----------</option>
+<option value="http://www.unikorea.go.kr">통일부</option>
+<option value="http://www.moj.go.kr">법무부</option>
+<option value="http://www.mnd.go.kr">국방부</option>
+<option value="http://www.me.go.kr">환경부</option>
+<option value="http://www.moel.go.kr">고용노동부</option>
+<option value="http://www.mogef.go.kr">여성가족부</option>
+<option value="http://www.mosf.go.kr">기획재정부</option>
+<option value="http://www.mcst.go.kr">문화체육관광부</option>
+<option value="http://www.mw.go.kr">보건복지부</option>
+<option value="http://www.msip.go.kr">미래창조과학부</option>
+<option value="http://www.moe.go.kr">교육부</option>
+<option value="http://www.mofa.go.kr">외교부</option>
+<option value="http://www.mospa.go.kr">안전행정부</option>
+<option value="http://www.mafra.go.kr">농림축산식품부</option>
+<option value="http://www.motie.go.kr">산업통상자원부</option>
+<option value="http://www.molit.go.kr">국토교통부</option>
+<option value="http://www.mof.go.kr">해양수산부</option>
+<option value="">----------</option>
+<option value="http://www.moleg.go.kr">법제처</option>
+<option value="http://www.mpva.go.kr">국가보훈처</option>
+<option value="http://www.mfds.go.kr">식품의약품안전처</option>
+<option value="">----------</option>
+<option value="http://www.dapa.go.kr">방위사업청</option>
+<option value="http://www.nts.go.kr">국세청</option>
+<option value="http://www.customs.go.kr">관세청</option>
+<option value="http://www.pps.go.kr">조달청</option>
+<option value="http://kostat.go.kr">통계청</option>
+<option value="http://www.spo.go.kr">대검찰청</option>
+<option value="http://www.mma.go.kr">병무청</option>
+<option value="http://www.police.go.kr">경찰청</option>
+<option value="http://www.nema.go.kr">소방방재청</option>
+<option value="http://www.kma.go.kr">기상청</option>
+<option value="http://www.cha.go.kr">문화재청</option>
+<option value="http://www.rda.go.kr">농촌진흥청</option>
+<option value="http://www.forest.go.kr">산림청</option>
+<option value="http://www.smba.go.kr">중소기업청</option>
+<option value="http://www.kipo.go.kr">특허청</option>
+<option value="http://www.kcg.go.kr">해양경찰청</option>
+<option value="http://www.macc.go.kr">행정중심복합도시건설청</option>
+<option value="">----------</option>
+<option value="http://www.ftc.go.kr">공정거래위원회</option>
+<option value="http://www.fsc.go.kr">금융위원회</option>
+<option value="http://www.acrc.go.kr">국민권익위원회</option>
+<option value="http://www.kcc.go.kr">방송통신위원회</option>
+<option value="http://www.humanrights.go.kr">국가인권위원회</option>
+<option value="http://www.nssc.go.kr">원자력안전위원회</option>
+</select>
+<input alt="부처바로가기" src="/_images/main2013/btn/btn_footer_move.png" type="image"/>
+</fieldset>
+</form>
+</div>
+</div>
+<div class="inner2">
+<div class="hidden">
+<address>135-513 서울특별시 강남구 선릉로93길 35 한국정책방송원 KTV</address>
+<dl>
+<dt>전화</dt>
+<dd>02-3450-2200</dd>
+<dt>팩스</dt>
+<dd>02-3450-2129</dd>
+<dt>이메일</dt>
+<dd>ktwebmaster@korea.kr</dd>
+</dl>
+<p>COPYRIGHT(C) 2011 KTV 한국정책방송 ALL RIGHTS RESERVED.</p>
+</div>
+<div class="outer_link">
+<form action="/other_pages/select_redirect.jsp" method="post" target="_blank">
+<fieldset>
+<legend>지방자치단체선택</legend>
+<select id="sel2" name="select" title="행정부처선택">
+<option value="">지자체를 선택해 주세요.</option>
+<option value="http://www.seoul.go.kr">서울특별시</option>
+<option value="http://www.busan.go.kr">부산광역시 </option>
+<option value="http://www.daegu.go.kr">대구광역시 </option>
+<option value="http://www.incheon.go.kr">인천광역시 </option>
+<option value="http://www.gwangju.go.kr">광주광역시</option>
+<option value="http://www.daejeon.go.kr">대전광역시</option>
+<option value="http://www.ulsan.go.kr">울산광역시</option>
+<option value="http://www.sejong.go.kr">세종특별자치시</option>
+<option value="">----------</option>
+<option value="http://www.gg.go.kr">경기도</option>
+<option value="http://www.provin.gangwon.kr">강원도</option>
+<option value="http://www.cb21.net">충청북도</option>
+<option value="http://www.chungnam.net">충청남도</option>
+<option value="http://www.jeonbuk.go.kr">전라북도</option>
+<option value="http://www.jeonnam.go.kr">전라남도</option>
+<option value="http://www.gb.go.kr">경상북도</option>
+<option value="http://www.gsnd.net">경상남도</option>
+<option value="http://www.jeju.go.kr/">제주특별자치도</option>
+</select>
+<input alt="지방자치단체바로가기" src="/_images/main2013/btn/btn_footer_move.png" type="image"/>
+</fieldset>
+</form>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
